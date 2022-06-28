@@ -67,10 +67,10 @@ async function getContent(req, res) {
           ]);
           //          console.log('cleanedPageContent: ', pageContent);
 
-          const stringifiedJson = JSON.stringify(pageContent).replace(/https?:\/\/[^\/]+/g, '');
-          // console.log('stringifiedJson: ', stringifiedJson);
+          // const stringifiedJson = JSON.stringify(pageContent).replace(/https?:\/\/[^\/]+/g, '');
+          // // console.log('stringifiedJson: ', stringifiedJson);
 
-          pageContent = JSON.parse(stringifiedJson);
+          // pageContent = JSON.parse(stringifiedJson);
           // console.log('pageContent: ', pageContent);
         }
 
